@@ -1,13 +1,8 @@
-
-
-
-
 let burger = document.getElementById('burger');
 let openMenu = document.getElementById('menu-open');
 let closeMenu = document.getElementById('menu-close');
 let navLinks = document.getElementById('nav-links');
 
-console.log(burger);
 
 burger.addEventListener('click', function() {
     console.log('clicked');
